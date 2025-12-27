@@ -1,0 +1,28 @@
+{
+  "welcome": {
+    "title": "Welcome",
+    "message": "Welcome to our user management application",
+    "description": "Manage your users easily"
+  },
+  "user": {
+    "name": "Name",
+    "email": "Email",
+    "username": "Username",
+    "actions": {
+      "create": "Create a user",
+      "edit": "Edit",
+      "delete": "Delete",
+      "save": "Save"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Operation successful"
+  },
+  "language": {
+    "french" : "French",
+    "english": "English",
+    "availableLanguage": "Available Language"
+  }
+}
