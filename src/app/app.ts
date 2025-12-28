@@ -2,10 +2,11 @@ import { Component, inject, signal, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { LanguageSwitcherComponent } from './shared/components/language-switcher/language-switcher';
+import { CoreModule } from './core/core.module';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, TranslateModule, LanguageSwitcherComponent], // Call TranslateModule to be available to use "translate" in the template
+  imports: [RouterOutlet, CoreModule, TranslateModule, LanguageSwitcherComponent], // Call TranslateModule to be available to use "translate" in the template
   template: `
     <div>
       <h1>{{ 'welcome.title' | translate }}</h1>
