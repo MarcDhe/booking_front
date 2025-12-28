@@ -64,3 +64,6 @@ we are currently using primeNG : https://primeng.org/
 
 Using Thailwind V4: https://tailwindcss.com/
  
+
+## Store NGrx Try global store (and maybe later signal store)
+https://ngrx.io/  
