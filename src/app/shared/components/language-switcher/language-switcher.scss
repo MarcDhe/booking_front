@@ -1,0 +1,11 @@
+.language-switcher {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1000;
+
+  ::ng-deep .p-component-overlay.p-component {
+    // ::ng-deep to promot to global style and get apply
+    width: 173px;
+  }
+}

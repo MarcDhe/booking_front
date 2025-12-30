@@ -3,7 +3,7 @@ import { TranslateService } from '@ngx-translate/core';
 import { Observable } from 'rxjs';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class NotificationService {
   // Injection du service de traduction pour accéder aux traductions dans le service
@@ -25,6 +25,7 @@ export class NotificationService {
    * @param params - Les paramètres à insérer dans la traduction
    * @returns Un Observable contenant la traduction
    */
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   getTranslation(key: string, params?: any): Observable<string> {
     return this.translateService.get(key, params);
   }

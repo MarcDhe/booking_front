@@ -64,3 +64,8 @@ we are currently using primeNG : https://primeng.org/
 
 Using Thailwind V4: https://tailwindcss.com/
  
+## Install eslint 
+ng lint
+
+## Install prettier x eslint 
+SOURCE : (angular 20) https://tejas-variya.medium.com/effortless-code-quality-in-angular-20-prettier-eslint-and-husky-2025-edition-262ef2a9d3b9
